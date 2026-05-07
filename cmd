@@ -56,6 +56,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install ultralytics --no-deps
 pip install opencv-python
 pip install matplotlib pillow pyyaml requests scipy torchvision ultralytics-thop polars
+python -c "from ultralytics import YOLO; print('YOLO OK')"
 pip install torchvision --index-url https://download.pytorch.org/whl/cpu
 python -c "from ultralytics import YOLO; print('YOLO OK')"
 
